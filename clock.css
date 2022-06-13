@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:90px;
+    background-color: rgb(114, 114, 114);
+    background-image: url("space.jpg");
+    
+}
+
+
+
+
+body {
+    border: 8px solid rgb(182, 182, 182);
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: url('');
+    
+}
+
+#clock {
+    height:120px;
+    font-size: 80px;
+    font-family: 'Tajawal', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 15px;
+    color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:rgb(86, 173, 255);
+    margin-top:20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+#clearButton {
+    float:right;
+    background-color:rgb(130, 40, 165);
+    margin-top:20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
